@@ -19,7 +19,7 @@ class Dog
   end
   
   def self.all
-    @@all.inspect
+    @@all
   
   end
   def self.clear_all
