@@ -22,7 +22,7 @@ class Dog
     @@all
   end
   def self.clear_all
-    @@all
+    @@all.clear
   end
   def self.print_all
     @@all.each do |x|
